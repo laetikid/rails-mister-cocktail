@@ -1,0 +1,38 @@
+content{
+  display: flex
+}
+a {
+  color: black;
+}
+.card {
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  height: 130px;
+  align-items: center;
+  color: black;
+  font-size: 5px;
+  font-weight: thin;
+  border-radius: 20px;
+  width:350px;
+  margin-top: 200px;
+}
+.cards {
+  // flex-grow: 1;
+  padding: 10px;
+  margin-top: 0px;
+}
+.card img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.name-cocktail {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+
+
+
