@@ -13,7 +13,6 @@ class DosesController < ApplicationController
       render :new
     end
   end
-end
 
   def destroy
     @dose = Dose.find(params[:id])
@@ -28,5 +27,6 @@ def set_cocktail
 end
 
 def doses_params
-  params.require(:dose).permit(:description, :cocktail_id, :ingredient_id)
+  params.require(:dose).permit(:description, :ingredient_id)
+end
 end
